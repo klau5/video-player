@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// API key is restricted to localhost:3000 only
+// API key  is restricted to localhost:3000 only
 const KEY = 'AIzaSyBc4hj8tqe0Ma0N0j0BPen25EwPAuhRw9I';
 
 export default axios.create({
