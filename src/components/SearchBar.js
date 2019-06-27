@@ -18,7 +18,7 @@ class SearchBar extends Component {
 			<div className="ui segment search-bar">
 				<form className="ui form" onSubmit={this.onFormSubmit}>
 					<div className="field">
-						<label>Vidoe Search</label>
+						<label>Video Search</label>
 						<input
 							type="text"
 							value={this.state.search_term}
