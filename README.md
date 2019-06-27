@@ -1,3 +1,10 @@
+Simple React app that queries Youtube(API) and returns videos related to the search term.
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
