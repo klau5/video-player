@@ -8,13 +8,13 @@ const KEY = 'AIzaSyC7iEDaHa6cmId7crRlMMz8iI92OgqQEVw';
 class App extends Component {
 	state = { videos: [] };
 
-	onSearchSubmit = async search_term => {
+	onSearchSubmit = async searchTerm => {
 		const response = await youtube.get('/search', {
 			params: {
 				part: 'snippet',
 				maxResults: 5,
 				key: KEY,
-				q: search_term
+				q: searchTerm
 			}
 		});
 
